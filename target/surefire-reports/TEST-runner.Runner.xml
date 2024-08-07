@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="runner.Runner" time="110.062" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="/Users/ahmadfarhanh/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ahmadfarhanh/eclipse-workspace/testingBDD"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ahmadfarhanh/eclipse-workspace/testingBDD"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/qy/2zz2wdp52010tz9mbs3kp8q00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ahmadfarhanh/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4680277709915710962.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ahmadfarhanh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ahmadfarhanh"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ahmadfarhanh"/>
+    <property name="java.class.path" value="/Users/ahmadfarhanh/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="/Users/ahmadfarhanh/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.5.v20221102-0933/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="/Users/ahmadfarhanh/eclipse-workspace/testingBDD/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="m2e.build.project.data.socket.port" value="58580"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="Automation for Mcd" name="Verify Homepage Banner should be 3-5" time="35.309">
+    <failure message="Jumlah Banner Home Tidak Sesuai" type="java.lang.AssertionError">java.lang.AssertionError: Jumlah Banner Home Tidak Sesuai
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepDefinitions.Glue.user_verifies_banner_count_in_homepage(Glue.java:23)
+	at ✽.User verifies banner count in homepage(file:///Users/ahmadfarhanh/eclipse-workspace/testingBDD/src/test/features/McDBanner&amp;CardValidation.feature:7)
+</failure>
+    <system-out>
+Scenario Name: Verify Homepage Banner should be 3-5
+========================================
+Jumlah Banner Home Yand Ditampilkan: 1
+Banner:1
+</system-out>
+    <system-err>Aug 07, 2024 10:59:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 07, 2024 10:59:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
+</system-err>
+  </testcase>
+  <testcase classname="Automation for Mcd" name="Verify Card Promo should be 3" time="33.823"/>
+  <testcase classname="Automation for Mcd" name="Verify PromoPage Banner should be 5" time="40.93"/>
+</testsuite>
