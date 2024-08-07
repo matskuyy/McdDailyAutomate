@@ -3,6 +3,8 @@ package utils;
 import java.time.Duration;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.WebDriver;
